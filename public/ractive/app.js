@@ -35,26 +35,6 @@
     }
   });
 
-  /*
-  @LocalCollection = new Meteor.Collection(null)
-  
-  
-  @render = (sortKey = name) ->
-    limit = Session.get('numberOfIds')
-    $('.result p').remove()
-    frag = document.createDocumentFragment()
-    LocalCollection.find({},{sort: [[sortKey, 'desc']], limit: limit } ).forEach (e) ->
-      a = document.createElement("p")
-      a.innerHTML = e.name
-      frag.appendChild a
-    $(".result").append frag
-  
-   <select id="itemCount" value="{{itemCount}}">
-    {{#numberOfItems}}
-      <option value="{{.}}">{{.}}</option>
-    {{/numberOfItems}}
-   </select>
-  */
 
 
 }).call(this);
