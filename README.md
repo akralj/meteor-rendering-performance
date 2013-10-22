@@ -22,7 +22,7 @@ Desktop machine is the latest macmini with 16gb ram & 2.6GHz quad core
      3000 records (preview-0):   ~60s      (too slow)         ~8s                ~12s
      3000 records (ractive.js):  ~2s        ~6s              <100ms              ~300ms
 
-The main takeaway is that even spark, the current meteor rendering engine is not fast enough on slower devices at the moment. 
+The main takeaway is that even spark, the current meteor rendering engine is not fast enough on slower devices at the moment, which will hopefully change once Meteor reaches 1.0.
 
 
 
