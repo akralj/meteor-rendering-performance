@@ -1,0 +1,14 @@
+th{
+  cursor: pointer;
+  background:green; 
+  padding:1em;
+}
+
+td{
+  width:50%;
+  max-width:20em;
+}
+
+.sorted{
+  background: orange;
+}

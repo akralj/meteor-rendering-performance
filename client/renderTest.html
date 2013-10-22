@@ -1,0 +1,35 @@
+<head>
+  <title>Meteor.js Render Performance Test</title>
+  <meta name="viewport" content="user-scalable=1,initial-scale=1,minimum-scale=1, maximum-scale=1.0, width=device-width">
+</head>
+
+<body>
+  {{>result}}
+</body>
+
+<template name="result">
+  <h1>Meteor.js</h1>
+  <header>
+  <p>Please click on header to change sort order.</p>
+  <p> Number of Items in Collection:
+       <select name="itemCount">
+         <option value="1000" selected>1000</option>
+         <option value="3000">3000</option>
+         <option value="10000">10000</option>
+       </select></p>
+  </header>
+
+  <table class="{{selected}}" class="result">
+    <tr>
+      <th  id="name">Name</th>
+      <th  id="_id">ID</th>
+    </tr>
+    {{#each result}}
+      <tr>
+        <td>{{name}}</td><td>{{_id}}</td>
+      </tr>
+    {{/each}}
+  </table>
+</template>
+
+
