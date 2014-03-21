@@ -6,7 +6,7 @@ Example app for comparing [v0.6.6.2](http://renderingPerformanceTest.meteor.com/
 
 I tried to keep it simple and packed 10000 records into a data var and use a simple sort function, instead of using minimongo. Here is the main part of the code (full code on github):
 
-To have a baseline for seeing what is realistic in browser performance I put an [reactive.js app](http://renderingPerformanceTest.meteor.com/ractive/index.html) under public. Ractive tries to solve many of the same problems you are working on at the moment & has a nice systax for two-way-bindings, animations... and it does the same kind of surgical dom manipulation, so I think it is a good baseline.
+To have a baseline for seeing what is realistic in browser performance I put an [reactive.js app](http://renderingPerformanceTest.meteor.com/ractive/index.html) under public. Ractive tries to solve many of the same problems you are working on at the moment & has a nice syntax for two-way-bindings, animations... and it does the same kind of surgical dom manipulation, so I think it is a good baseline.
 
 Here are some very unscientific benchmarks, measuring three rounds on each device:
 
